@@ -13,6 +13,6 @@ to be displayed horizontally for the desktop design and still for the
 same design, the items's elements have to be displayed vertically.
 (Really tricky right?)  
 To solve this issue, in the <ul> class, I have set the "display" 
-property to "flex" and <li> class, the "display" property has the "grid" value
-for the desktop version. But for the mobile version, for the <ul> class, 
+property to "flex" and "li" class, the "display" property has the "grid" value
+for the desktop version. But for the mobile version, for the "ul" class, 
 the display property has "grid" for value.
