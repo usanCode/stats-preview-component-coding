@@ -3,35 +3,39 @@
 
 
 
-
-
 body{
 
     background-color: hsl(233, 47%, 7%) ;
-    margin: auto;
-    min-height: 100vh;
     color: hsl(0, 0%, 100%);
+    padding:0;
+    margin:0;
+    justify-items: center;
+    display: flex;
     justify-content: center;
-    align-items: center;
-    max-width: 1440px;
+    align-items:center;  
+    
+
+    
 }
+
+
 
 
 .grid-container{
     display:grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr ;
-    margin-right: 6%;
-    margin-left:7%;
+    grid-template-rows: 1fr;
+    margin-top: 10%;
+     margin-bottom: 30%;
     width: 53rem;
     height:10rem;
     justify-content:center;
-    margin-top:20%;
-    margin-bottom: 30%;
-
-      
+   
+   
     
 }
+
+
 
 .left-container {
     grid-column-start:1 ;
@@ -112,6 +116,25 @@ li{
 
 
 @media screen and (min-width: 1200px){
+
+
+    body{
+
+        background-color: hsl(233, 47%, 7%) ;
+       
+        
+        color: hsl(0, 0%, 100%);
+        
+        justify-items: center;
+        display: flex;
+        
+        justify-content: center;
+        align-items:center;  
+        
+        
+    
+        
+    }
 
        
     .grid-container{
@@ -221,87 +244,4 @@ li{
 }
 
 }
-/*
 
-@media screen and (max-width:540px) {
-    
-.grid-container{
-    display:grid;
-    grid-template-columns: 1fr ;
-    grid-template-rows: 1fr  1fr;
-    margin:2rem;
-    border-radius:1rem;
-    
-    
-}
-.left-container {
-    grid-column-start:1 ;
-    grid-column-end: 2;
-    grid-row-start:2 ;
-    grid-row-end:3 ;
-    background-color: hsl(244, 38%, 16%) ;
-    padding-right: 2.5rem;
-    padding-top: 0.1rem;
-    padding-left:2.5 rem;
-    
-
-}
-
-.right-container {
-    grid-column-start:1 ;
-    grid-column-end: 2;
-    grid-row-start:1 ;
-    grid-row-end:2 ;
-
-}
-img{
-    width: 100%;
-    height:100%;
-    background:hsl(277, 64%, 61%);
-    
-   
-    
-}
-ul {
-    display: table;
-    list-style-type: none;
-    justify-content:space-between;
-    padding-right: 0;
-    padding-left: 6rem;
-    padding-top: 0;
-    
-    
-}
-li{
-    justify-items: center; 
-    display:grid; 
-    vertical-align: middle;
-
-}
-
-.mainPara{
-    color: hsla(0, 0%, 100%, 0.6);
-    font-family: Inter ;
-    text-align:center;
-    margin: 0.3rem;
-    font-size: 15px;
-}
-h1{
-    font-size: 2rem;
-    font-weight: 700;
-    text-align:center;
-}
-
-.simple{
-    color: hsla(0, 0%, 100%, 0.6);
-    font-size:15px;
-    font-family: Inter ;
-}
-
-.high{
-    font-size:18px;
-    font-family: Inter ;
-    font-weight: 700;
-
-}
-*/
